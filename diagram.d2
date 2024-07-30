@@ -1,310 +1,233 @@
-# Define variables for colors and styles
+direction: left
 vars: {
-  math-fill: "#FFF2CC"
-  math-stroke: "#916f0c"
-  cs-fill: "#d6ddff"
-  cs-stroke: "#0D32B2"
-  cs-stroke-elective: "black"
-  cs-fill-elective: "#f7f7f7"
-  dash-style: 3
+  d2-config: {
+    #  layout-engine: elk
+  }
+}
+
+classes: {
+  course: {
+    style: {
+      # font-size: 20
+      border-radius: 5
+    }
+  }
+  math: {
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#916f0c"
+    }
+  }
+  cs: {
+    style: {
+      fill: "#d6ddff"
+      stroke: "#0D32B2"
+    }
+  }
+  elective: {
+    style: {
+      fill: "#f0f0f0"
+      stroke: "black"
+    }
+  }
+  rec: {
+    style: {
+      stroke: "gray"
+      stroke-width: 3
+      stroke-dash: 2
+    }
+  }
 }
 
 20474: {
   label: "אינפי 1"
-  style: {
-    fill: ${math-fill}
-    stroke: ${math-stroke}
-  }
+  class: [course; math]
 }
 
 20475: {
   label: "אינפי 2"
-  style: {
-    fill: ${math-fill}
-    stroke: ${math-stroke}
-  }
+  class: [course; math]
 }
 
 20476: {
-  label: "מתמטיקה בדידה"
-  style: {
-    fill: ${math-fill}
-    stroke: ${math-stroke}
-  }
+  label: "בדידה"
+  class: [course; math]
 }
 
 20109: {
   label: "לינארית 1"
-  style: {
-    fill: ${math-fill}
-    stroke: ${math-stroke}
-  }
+  class: [course; math]
 }
 
 20229: {
   label: "לינארית 2"
-  style: {
-    fill: ${math-fill}
-    stroke: ${math-stroke}
-  }
+  class: [course; math]
 }
 
 20425: {
-  label: "הסתברות ומבוא לסטטיסטיקה למדמח"
-  style: {
-    fill: ${math-fill}
-    stroke: ${math-stroke}
-  }
+  label: "הסתברות-סטטיסטיקה"
+  class: [course; math]
 }
 
-# CS courses
 20441: {
-  label: "מבוא למדמח Java"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  label: "מבוא Java"
+  class: [course; cs]
 }
 
 20407: {
-  label: "מבני נתונים ומבוא לאלגוריתמים"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  label: "מנמא"
+  class: [course; cs]
 }
 
 20465: {
-  label: "מעבדה בתכנות מערכות"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  label: "מעבדה בכתנות מע'"
+  class: [course; cs]
 }
 
 20417: {
   label: "אלגוריתמים"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  class: [course; cs]
 }
 
 20604: {
-  label: "מודלים חישוביים"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  label: "מודלים  חישוביים"
+  class: [course; cs]
 }
 
 20466: {
-  label: "לוגיקה למדעי המחשב"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  label: "לוגיקה  למדמח"
+  class: [course; cs]
 }
 
 20594: {
-  label: "מערכות הפעלה"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  label: "מע' הפעלה"
+  class: [course; cs]
 }
 
 20905: {
   label: "שפות תכנות"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  class: [course; cs]
 }
 
 20471: {
   label: "ארגון המחשב"
-  style: {
-    fill: ${cs-fill}
-    stroke: ${cs-stroke}
-  }
+  class: [course; cs]
 }
 
 20436: {
-  label: "עקרונות פיתוח מערכות מידע"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "עק' פיתוח  מע' מידע"
+  class: [course; elective]
 }
 
 20296: {
   label: "תורת הקודים"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  class: [course; elective]
 }
 
 20462: {
-  label: "אנליזה נומרית 1"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "נומרית 1"
+  class: [course; elective]
+}
+
+20900: {
+  label:  "נומרית 2"
+  class: [course; elective]
 }
 
 20551: {
-  label: "מבוא לבינה מלאכותית"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "מ' לבינה מלאכותית"
+  class: [course; elective]
 }
 
 20554: {
-  label: "תכנות מתקדם בשפת Java"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "תכ' מתקדם Java"
+  class: [course; elective]
 }
 
 20582: {
-  label: "מבוא לרשתות תקשורת מחשבים"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "מ' לרשתות ת''מ"
+  class: [course; elective]
 }
 
 20937: {
-  label: "תכנות מערכות דפנסיבי"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "תכ' מע' דפנסיבי"
+  class: [course; elective]
 }
 
 20562: {
   label: "גרפיקה ממוחשבת"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  class: [course; elective]
 }
 
 20580: {
-  label: "מבוא לקריפטוגרפיה"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "מ' לקריפטוגרפיה"
+  class: [course; elective]
 }
 
-
-
-
 20277: {
-  label: "מערכות בסיסי נתונים"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "מע' בסיסי נתונים"
+  class: [course; elective]
 }
 
 20364: {
   label: "קומפילציה"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  class: [course; elective]
 }
 
 20906: {
-  label: "תכנות מונחה עצמים"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "תכ' מונחה עצמים"
+  class: [course; elective]
 }
 
-# 20942 מבוא ללמידה חישובית
 20942: {
-  label: "מבוא ללמידה חישובית"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "מ' ללמידה חישובית"
+  class: [course; elective]
 }
 
-# 20574 מערכות נתונים - טכנולוגיות ואלגוריתמים
 20574: {
-  label: "מע' נתונים - טכ' ואלגוריתמים"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "מע' נתונים"
+  class: [course; elective]
 }
 
-# 20940 מבוא לאבטחת המרחב המקוון
-# ידע קודם דרוש: מערכות הפעלה, מבוא לרשתות תקשורת מחשבים
 20940: {
-  label: "מבוא לאבטחת המרחב המקוון"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "מ' לאבטחת ה''ה"
+  class: [course; elective]
 }
 
-
-
-# 20595 כריית מידע
 20595: {
   label: "כריית מידע"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  class: [course; elective]
 }
 
-# 20944 רובוטיקה אלגוריתמית
 20944: {
-  label: "רובוטיקה אלגוריתמית"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "רובוטיקה אלגו'"
+  class: [course; elective]
 }
 
-
-# 20946 מבוא לבדיקות תוכנה
 20946: {
-  label: "מבוא לבדיקות תוכנה"
-  style: {
-    fill: ${cs-fill-elective}
-    stroke: ${cs-stroke-elective}
-  }
+  label: "מ' לבדיקות תוכנה"
+  class: [course; elective]
 }
 
+# required dependencies
 20465 -> 20946
 20604 -> 20946
-
-
 20594 -> 20940
 20582 -> 20940
-20462 -> 20944
 20417 -> 20944
 20417 -> 20595
 20594 -> 20574
 20277 -> 20436
-20109 -> 20296 
-20441 -> 20462
+20109 -> 20296
+20417 -> 20462 # ACTUALLY 20441 -> 20462
 20109 -> 20462
 20475 -> 20462
-20407 -> 20551
-20466 -> 20551
-20425 -> 20551
+
+#20407 -> 20551
+#20466 -> 20551
+#20425 -> 20551
+20604 -> 20551 # ACTUALLY these three before
+
 20407 -> 20554
 20417 -> 20582
 20554 -> 20937
@@ -320,7 +243,8 @@ vars: {
 20441 -> 20465
 20441 -> 20407
 20476 -> 20407
-20465 -> 20594
+20471 -> 20594
+
 20407 -> 20417 -> 20604
 20476 -> 20466
 20474 -> 20475 -> 20425
@@ -333,6 +257,13 @@ vars: {
 20407 -> 20906
 20465 -> 20364 -> 20905
 20604 -> 20364
-20441 -> 20942
-20109 -> 20942
-20425 -> 20942
+
+#20441 -> 20942
+#20109 -> 20942
+#20425 -> 20942
+20604 -> 20942
+
+20462 -> 20900
+
+# recommended dependencies
+20462 -> 20944: {class: rec}
