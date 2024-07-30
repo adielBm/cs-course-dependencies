@@ -1,0 +1,116 @@
+[
+    {
+      "course_id": "20471",
+      "course_name": "ארגון המחשב",
+      "credits": 4,
+      "advanced": false,
+      "elective": false,
+      "department": "cs",
+      "prerequisites": ["20441"],
+      "recommended_knowledge": ["20465", "20407"]
+    },
+    {
+      "course_id": "20474",
+      "course_name": "חשבון אינפיניטסימלי 1",
+      "credits": 7,
+      "advanced": false,
+      "elective": false,
+      "department": "math",
+      "recommended_knowledge": ["04101"]
+    },
+    {
+      "course_id": "20476",
+      "course_name": "מתמטיקה בדידה",
+      "credits": 4,
+      "advanced": false,
+      "elective": false,
+      "department": "math",
+      "recommended_knowledge": ["04101"]
+    },
+    {
+      "course_id": "20109",
+      "course_name": "אלגברה לינארית 1",
+      "credits": 7,
+      "advanced": false,
+      "elective": false,
+      "department": "math",
+      "recommended_knowledge": ["04101"]
+    },
+    {
+      "course_id": "20407",
+      "course_name": "מבני נתונים ומבוא לאלגוריתמים",
+      "credits": 6,
+      "advanced": false,
+      "elective": false,
+      "department": "cs",
+      "prerequisites": ["20441", "20476"],
+      "recommended_knowledge": ["20474", "20109", "20425"]
+    },
+    {
+      "course_id": "20417",
+      "course_name": "אלגוריתמים",
+      "credits": 5,
+      "advanced": false,
+      "elective": false,
+      "department": "cs",
+      "prerequisites": ["20476", "20407", "20441"],
+      "recommended_knowledge": ["20474", "20109", "20425"]
+    },
+    {
+      "course_id": "20465",
+      "course_name": "מעבדה בתכנות מערכות",
+      "credits": 4,
+      "advanced": false,
+      "elective": false,
+      "department": "cs",
+      "prerequisites": ["20441"]
+    },
+    {
+      "course_id": "20604",
+      "course_name": "מודלים חישוביים",
+      "credits": 5,
+      "advanced": true,
+      "elective": false,
+      "department": "cs",
+      "prerequisites": ["20407"],
+      "recommended_knowledge": ["20417", "20466"]
+    },
+    {
+      "course_id": "20466",
+      "course_name": "לוגיקה למדעי המחשב",
+      "credits": 4,
+      "advanced": false,
+      "elective": false,
+      "department": "cs",
+      "prerequisites": ["20476"]
+    },
+    {
+      "course_id": "20594",
+      "course_name": "מערכות הפעלה",
+      "credits": 4,
+      "advanced": true,
+      "elective": false,
+      "department": "cs",
+      "prerequisites": ["20465", "20407"],
+      "recommended_knowledge": ["20471"]
+    },
+    {
+      "course_id": "20905",
+      "course_name": "שפות תכנות",
+      "credits": 4,
+      "advanced": true,
+      "elective": false,
+      "department": "cs",
+      "prerequisites": ["20407", "20604", "20465", "20417"]
+    },
+    {
+      "course_id": "20425",
+      "course_name": "הסתברות ומבוא לסטטיסטיקה למדעי המחשב",
+      "credits": 5,
+      "advanced": false,
+      "elective": false,
+      "department": "math",
+      "prerequisites": ["20474", "20475"]
+    }
+  ]
+  

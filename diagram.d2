@@ -1,0 +1,244 @@
+# math: fill: #FFF2CC, stroke: #F1C232
+# cs: fill: #D9EAD3, stroke: #93C47D
+# electives: stroke-dash: 3
+
+# Math courses
+
+04101: {
+  label: "אשנב למתתמטיקה"
+  style: {
+    fill: "#FFF2CC"
+    stroke: "#F1C232"
+  }
+}
+
+REQ: {
+  style: {
+    fill: "#fffff0"
+    stroke: "#ffff00"
+  }
+
+  20474: {
+    label: "אינפי 1"
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#F1C232"
+    }
+  }
+
+  20475: {
+    label: "אינפי 2"
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#F1C232"
+    }
+  }
+
+  20476: {
+    label: "מתמטיקה בדידה"
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#F1C232"
+    }
+  }
+
+  20109: {
+    label: "לינארית 1"
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#F1C232"
+    }
+  }
+
+  20229: {
+    label: "לינארית 2"
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#F1C232"
+    }
+  }
+
+  20425: {
+    label: "הסתברות ומבוא לסטטיסטיקה למדמח"
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#F1C232"
+    }
+  }
+
+  # CS courses
+
+  20441: {
+    label: "מבוא למדמח Java"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20407: {
+    label: "מבני נתונים ומבוא לאלגוריתמים"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20465: {
+    label: "מעבדה בתכנות מערכות"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20417: {
+    label: "אלגוריתמים"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20604: {
+    label: "מודלים חישוביים"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20466: {
+    label: "לוגיקה למדעי המחשב"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20594: {
+    label: "מערכות הפעלה"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20905: {
+    label: "שפות תכנות"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20471: {
+    label: "ארגון המחשב"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  # prerequisites (regular), recommended (dash) 
+
+  20407 -> 20471: {
+    style.stroke-dash: 3
+  }
+  20465 -> 20471: {
+    style.stroke-dash: 3
+  }
+
+  20417 -> 20604: {
+    style.stroke-dash: 3
+  }
+
+  20466 -> 20604: {
+    style.stroke-dash: 3
+  }
+
+  20441 -> 20465
+  20441 -> 20407
+  20476 -> 20407
+  20407 -> 20604
+
+  20465 -> 20594
+
+  # 20905 שפות תכנות
+  20604 -> 20905
+  20417 -> 20905
+  20465 -> 20905
+
+  20476 -> 20466
+  20441 -> 20471
+  20474 -> 20475 -> 20425
+  20109 -> 20229
+  20407 -> 20594
+
+  # requirements of 20417
+  20407 -> 20417
+  # rec of 20417
+  20474 -> 20417: {
+    style.stroke-dash: 3
+  }
+  20109 -> 20417: {
+    style.stroke-dash: 3
+  }
+  20425 -> 20417: {
+    style.stroke-dash: 3
+  }
+}
+04101 -> REQ.20474: {
+  style.stroke-dash: 3
+}
+04101 -> REQ.20476: {
+  style.stroke-dash: 3
+}
+04101 -> REQ.20109: {
+  style.stroke-dash: 3
+}
+
+ELECTIVE: {
+  style: {
+    fill: "#f0ffff"
+    stroke: "#ff0f0f"
+  }
+
+  20277: {
+    label: "מערכות בסיסי נתונים"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20364: {
+    label: "קומפילציה"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+
+  20906: {
+    label: "תכנות מונחה עצמים"
+    style: {
+      fill: "#D9EAD3"
+      stroke: "#93C47D"
+    }
+  }
+}
+
+ELECTIVE.20364 -> REQ.20905: {
+  style.stroke-dash: 3
+}
+
+ELECTIVE.20906 -> REQ.20905: {
+  style.stroke-dash: 3
+}
+
+REQ.20441 -> ELECTIVE.20277
+REQ.20476 -> ELECTIVE.20277
+REQ.20407 -> ELECTIVE.20277: {
+  style.stroke-dash: 3
+}
