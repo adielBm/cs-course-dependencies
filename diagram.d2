@@ -1,15 +1,26 @@
 direction: left
 vars: {
   d2-config: {
+    sketch: true
     #  layout-engine: elk
   }
 }
 
+style: {
+  fill-pattern: dots
+
+}
+
+
 classes: {
   course: {
+    width: 200
+    height: 120
     style: {
+      shadow: true
+
       # font-size: 20
-      border-radius: 5
+      border-radius: 30
     }
   }
   math: {
@@ -65,7 +76,7 @@ classes: {
 }
 
 20425: {
-  label: "הסתברות-סטטיסטיקה"
+  label: "הסתברות\nסטטיסטיקה"
   class: [course; math]
 }
 
@@ -80,7 +91,7 @@ classes: {
 }
 
 20465: {
-  label: "מעבדה בכתנות מע'"
+  label: "מעבדה בתכנות"
   class: [course; cs]
 }
 
@@ -90,7 +101,7 @@ classes: {
 }
 
 20604: {
-  label: "מודלים  חישוביים"
+  label: "מודלים\nחישוביים"
   class: [course; cs]
 }
 
@@ -140,7 +151,7 @@ classes: {
 }
 
 20554: {
-  label: "תכ' מתקדם Java"
+  label: "תכ' מתקדם \n Java"
   class: [course; elective]
 }
 
@@ -154,10 +165,10 @@ classes: {
   class: [course; elective]
 }
 
-20562: {
-  label: "גרפיקה ממוחשבת"
-  class: [course; elective]
-}
+# 20562: {
+#   label: "גרפיקה ממוחשבת"
+#   class: [course; elective]
+# }
 
 20580: {
   label: "מ' לקריפטוגרפיה"
@@ -200,7 +211,7 @@ classes: {
 }
 
 20944: {
-  label: "רובוטיקה אלגו'"
+  label: "רובוטיקה\nאלגוריתמית"
   class: [course; elective]
 }
 
@@ -228,25 +239,25 @@ classes: {
 #20425 -> 20551
 20604 -> 20551 # ACTUALLY these three before
 
-20407 -> 20554
 20417 -> 20582
-20554 -> 20937
+20407 -> 20554
 20594 -> 20937
 20582 -> 20937
-20109 -> 20562
-20465 -> 20562
-20407 -> 20562
+# 20109 -> 20562
+# 20465 -> 20562
+# 20407 -> 20562
 20604 -> 20580
-20407 -> 20471
+20407 -> 20417 -> 20604
 20465 -> 20471
 20466 -> 20604
-20441 -> 20465
+20407 -> 20471
 20441 -> 20407
+20441 -> 20465
+20476 -> 20466
 20476 -> 20407
 20471 -> 20594
+20554 -> 20937
 
-20407 -> 20417 -> 20604
-20476 -> 20466
 20474 -> 20475 -> 20425
 20109 -> 20229
 20407 -> 20594
