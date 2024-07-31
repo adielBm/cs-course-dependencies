@@ -12,14 +12,20 @@
 <!-- 20476 -->
 <g id="node1" class="node">
 <title>20476</title>
+<g id="a_node1"><a xlink:href="https://www.openu.ac.il/courses/20476.htm" xlink:title="בדידה">
 <polygon fill="#fff2cc" stroke="#916f0c" points="814.5,-411 760.5,-411 760.5,-375 814.5,-375 814.5,-411"/>
 <text text-anchor="middle" x="787.5" y="-387.95" font-family="Arial" font-size="14.00">בדידה</text>
+</a>
+</g>
 </g>
 <!-- 20407 -->
 <g id="node7" class="node">
 <title>20407</title>
+<g id="a_node7"><a xlink:href="https://www.openu.ac.il/courses/20407.htm" xlink:title="מנמא">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="427.5,-336.5 373.5,-336.5 373.5,-300.5 427.5,-300.5 427.5,-336.5"/>
 <text text-anchor="middle" x="400.5" y="-313.45" font-family="Arial" font-size="14.00">מנמא</text>
+</a>
+</g>
 </g>
 <!-- 20476&#45;&gt;20407 -->
 <g id="edge22" class="edge">
@@ -30,8 +36,11 @@
 <!-- 20466 -->
 <g id="node14" class="node">
 <title>20466</title>
+<g id="a_node14"><a xlink:href="https://www.openu.ac.il/courses/20466.htm" xlink:title="לוגיקה למדמח">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="914.12,-336.5 820.88,-336.5 820.88,-300.5 914.12,-300.5 914.12,-336.5"/>
 <text text-anchor="middle" x="867.5" y="-313.45" font-family="Arial" font-size="14.00">לוגיקה למדמח</text>
+</a>
+</g>
 </g>
 <!-- 20476&#45;&gt;20466 -->
 <g id="edge3" class="edge">
@@ -42,14 +51,20 @@
 <!-- 20474 -->
 <g id="node2" class="node">
 <title>20474</title>
+<g id="a_node2"><a xlink:href="https://www.openu.ac.il/courses/20474.htm" xlink:title="אינפי 1">
 <polygon fill="#fff2cc" stroke="#916f0c" points="1033,-483 978,-483 978,-447 1033,-447 1033,-483"/>
 <text text-anchor="middle" x="1005.5" y="-459.95" font-family="Arial" font-size="14.00">אינפי 1</text>
+</a>
+</g>
 </g>
 <!-- 20475 -->
 <g id="node3" class="node">
 <title>20475</title>
+<g id="a_node3"><a xlink:href="https://www.openu.ac.il/courses/20475.htm" xlink:title="אינפי 2">
 <polygon fill="#fff2cc" stroke="#916f0c" points="1033,-411 978,-411 978,-375 1033,-375 1033,-411"/>
 <text text-anchor="middle" x="1005.5" y="-387.95" font-family="Arial" font-size="14.00">אינפי 2</text>
+</a>
+</g>
 </g>
 <!-- 20474&#45;&gt;20475 -->
 <g id="edge6" class="edge">
@@ -60,9 +75,12 @@
 <!-- 20425 -->
 <g id="node6" class="node">
 <title>20425</title>
+<g id="a_node6"><a xlink:href="https://www.openu.ac.il/courses/20425.htm" xlink:title="הסתברות\nסטטיסטיקה">
 <polygon fill="#fff2cc" stroke="#916f0c" points="1011,-339 932,-339 932,-298 1011,-298 1011,-339"/>
 <text text-anchor="middle" x="971.5" y="-321.7" font-family="Arial" font-size="14.00">הסתברות</text>
 <text text-anchor="middle" x="971.5" y="-305.2" font-family="Arial" font-size="14.00">סטטיסטיקה</text>
+</a>
+</g>
 </g>
 <!-- 20475&#45;&gt;20425 -->
 <g id="edge7" class="edge">
@@ -73,8 +91,11 @@
 <!-- 20462 -->
 <g id="node26" class="node">
 <title>20462</title>
+<g id="a_node26"><a xlink:href="https://www.openu.ac.il/courses/20462.htm" xlink:title="נומרית 1">
 <polygon fill="#f0f0f0" stroke="black" points="997.5,-259.5 933.5,-259.5 933.5,-223.5 997.5,-223.5 997.5,-259.5"/>
 <text text-anchor="middle" x="965.5" y="-236.45" font-family="Arial" font-size="14.00">נומרית 1</text>
+</a>
+</g>
 </g>
 <!-- 20475&#45;&gt;20462 -->
 <g id="edge31" class="edge">
@@ -85,14 +106,20 @@
 <!-- 20109 -->
 <g id="node4" class="node">
 <title>20109</title>
+<g id="a_node4"><a xlink:href="https://www.openu.ac.il/courses/20109.htm" xlink:title="לינארית 1">
 <polygon fill="#fff2cc" stroke="#916f0c" points="764.88,-336.5 694.12,-336.5 694.12,-300.5 764.88,-300.5 764.88,-336.5"/>
 <text text-anchor="middle" x="729.5" y="-313.45" font-family="Arial" font-size="14.00">לינארית 1</text>
+</a>
+</g>
 </g>
 <!-- 20229 -->
 <g id="node5" class="node">
 <title>20229</title>
+<g id="a_node5"><a xlink:href="https://www.openu.ac.il/courses/20229.htm" xlink:title="לינארית 2">
 <polygon fill="#fff2cc" stroke="#916f0c" points="811.88,-259.5 741.12,-259.5 741.12,-223.5 811.88,-223.5 811.88,-259.5"/>
 <text text-anchor="middle" x="776.5" y="-236.45" font-family="Arial" font-size="14.00">לינארית 2</text>
+</a>
+</g>
 </g>
 <!-- 20109&#45;&gt;20229 -->
 <g id="edge13" class="edge">
@@ -103,8 +130,11 @@
 <!-- 20417 -->
 <g id="node12" class="node">
 <title>20417</title>
+<g id="a_node12"><a xlink:href="https://www.openu.ac.il/courses/20417.htm" xlink:title="אלגוריתמים">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="723,-259.5 644,-259.5 644,-223.5 723,-223.5 723,-259.5"/>
 <text text-anchor="middle" x="683.5" y="-236.45" font-family="Arial" font-size="14.00">אלגוריתמים</text>
+</a>
+</g>
 </g>
 <!-- 20109&#45;&gt;20417 -->
 <g id="edge15" class="edge">
@@ -115,8 +145,11 @@
 <!-- 20296 -->
 <g id="node19" class="node">
 <title>20296</title>
+<g id="a_node19"><a xlink:href="https://www.openu.ac.il/courses/20296.htm" xlink:title="תורת הקודים">
 <polygon fill="#f0f0f0" stroke="black" points="915.38,-259.5 829.62,-259.5 829.62,-223.5 915.38,-223.5 915.38,-259.5"/>
 <text text-anchor="middle" x="872.5" y="-236.45" font-family="Arial" font-size="14.00">תורת הקודים</text>
+</a>
+</g>
 </g>
 <!-- 20109&#45;&gt;20296 -->
 <g id="edge9" class="edge">
@@ -133,8 +166,11 @@
 <!-- 20562 -->
 <g id="node29" class="node">
 <title>20562</title>
+<g id="a_node29"><a xlink:href="https://www.openu.ac.il/courses/20562.htm" xlink:title="גרפיקה ממוחשבת">
 <polygon fill="#f0f0f0" stroke="black" points="549.25,-259.5 435.75,-259.5 435.75,-223.5 549.25,-223.5 549.25,-259.5"/>
 <text text-anchor="middle" x="492.5" y="-236.45" font-family="Arial" font-size="14.00">גרפיקה ממוחשבת</text>
+</a>
+</g>
 </g>
 <!-- 20109&#45;&gt;20562 -->
 <g id="edge36" class="edge">
@@ -145,9 +181,12 @@
 <!-- 20944 -->
 <g id="node24" class="node">
 <title>20944</title>
+<g id="a_node24"><a xlink:href="https://www.openu.ac.il/courses/20944.htm" xlink:title="רובוטיקה\nאלגוריתמית">
 <polygon fill="#f0f0f0" stroke="black" points="817.38,-185 737.62,-185 737.62,-144 817.38,-144 817.38,-185"/>
 <text text-anchor="middle" x="777.5" y="-167.7" font-family="Arial" font-size="14.00">רובוטיקה</text>
 <text text-anchor="middle" x="777.5" y="-151.2" font-family="Arial" font-size="14.00">אלגוריתמית</text>
+</a>
+</g>
 </g>
 <!-- 20229&#45;&gt;20944 -->
 <g id="edge49" class="edge">
@@ -164,8 +203,11 @@
 <!-- 20942 -->
 <g id="node21" class="node">
 <title>20942</title>
+<g id="a_node21"><a xlink:href="https://www.openu.ac.il/courses/20942.htm" xlink:title="מ&#39; ללמידה חישובית">
 <polygon fill="#f0f0f0" stroke="black" points="1121.88,-108 1003.12,-108 1003.12,-72 1121.88,-72 1121.88,-108"/>
 <text text-anchor="middle" x="1062.5" y="-84.95" font-family="Arial" font-size="14.00">מ&#39; ללמידה חישובית</text>
+</a>
+</g>
 </g>
 <!-- 20425&#45;&gt;20942 -->
 <g id="edge44" class="edge">
@@ -176,8 +218,11 @@
 <!-- 20471 -->
 <g id="node9" class="node">
 <title>20471</title>
+<g id="a_node9"><a xlink:href="https://www.openu.ac.il/courses/20471.htm" xlink:title="ארגון המחשב">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="417.25,-259.5 327.75,-259.5 327.75,-223.5 417.25,-223.5 417.25,-259.5"/>
 <text text-anchor="middle" x="372.5" y="-236.45" font-family="Arial" font-size="14.00">ארגון המחשב</text>
+</a>
+</g>
 </g>
 <!-- 20407&#45;&gt;20471 -->
 <g id="edge25" class="edge">
@@ -194,8 +239,11 @@
 <!-- 20277 -->
 <g id="node22" class="node">
 <title>20277</title>
+<g id="a_node22"><a xlink:href="https://www.openu.ac.il/courses/20277.htm" xlink:title="מע&#39; בסיסי נתונים">
 <polygon fill="#f0f0f0" stroke="black" points="209.5,-259.5 103.5,-259.5 103.5,-223.5 209.5,-223.5 209.5,-259.5"/>
 <text text-anchor="middle" x="156.5" y="-236.45" font-family="Arial" font-size="14.00">מע&#39; בסיסי נתונים</text>
+</a>
+</g>
 </g>
 <!-- 20407&#45;&gt;20277 -->
 <g id="edge10" class="edge">
@@ -206,9 +254,12 @@
 <!-- 20554 -->
 <g id="node25" class="node">
 <title>20554</title>
+<g id="a_node25"><a xlink:href="https://www.openu.ac.il/courses/20554.htm" xlink:title="תכ&#39; מתקדם \n Java">
 <polygon fill="#f0f0f0" stroke="black" points="309.88,-262 227.12,-262 227.12,-221 309.88,-221 309.88,-262"/>
 <text text-anchor="middle" x="268.5" y="-244.7" font-family="Arial" font-size="14.00">תכ&#39; מתקדם </text>
 <text text-anchor="middle" x="268.5" y="-228.2" font-family="Arial" font-size="14.00"> Java</text>
+</a>
+</g>
 </g>
 <!-- 20407&#45;&gt;20554 -->
 <g id="edge33" class="edge">
@@ -225,8 +276,11 @@
 <!-- 20906 -->
 <g id="node31" class="node">
 <title>20906</title>
+<g id="a_node31"><a xlink:href="https://www.openu.ac.il/courses/20906.htm" xlink:title="תכ&#39; מונחה עצמים">
 <polygon fill="#f0f0f0" stroke="black" points="109,-182.5 0,-182.5 0,-146.5 109,-146.5 109,-182.5"/>
 <text text-anchor="middle" x="54.5" y="-159.45" font-family="Arial" font-size="14.00">תכ&#39; מונחה עצמים</text>
+</a>
+</g>
 </g>
 <!-- 20407&#45;&gt;20906 -->
 <g id="edge41" class="edge">
@@ -237,14 +291,20 @@
 <!-- 20905 -->
 <g id="node8" class="node">
 <title>20905</title>
+<g id="a_node8"><a xlink:href="https://www.openu.ac.il/courses/20905.htm" xlink:title="שפות תכנות">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="450.5,-36 368.5,-36 368.5,0 450.5,0 450.5,-36"/>
 <text text-anchor="middle" x="409.5" y="-12.95" font-family="Arial" font-size="14.00">שפות תכנות</text>
+</a>
+</g>
 </g>
 <!-- 20594 -->
 <g id="node15" class="node">
 <title>20594</title>
+<g id="a_node15"><a xlink:href="https://www.openu.ac.il/courses/20594.htm" xlink:title="מע&#39; הפעלה">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="419.88,-182.5 343.12,-182.5 343.12,-146.5 419.88,-146.5 419.88,-182.5"/>
 <text text-anchor="middle" x="381.5" y="-159.45" font-family="Arial" font-size="14.00">מע&#39; הפעלה</text>
+</a>
+</g>
 </g>
 <!-- 20471&#45;&gt;20594 -->
 <g id="edge12" class="edge">
@@ -255,8 +315,11 @@
 <!-- 20441 -->
 <g id="node10" class="node">
 <title>20441</title>
+<g id="a_node10"><a xlink:href="https://www.openu.ac.il/courses/20441.htm" xlink:title="מבוא Java">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="588.5,-411 512.5,-411 512.5,-375 588.5,-375 588.5,-411"/>
 <text text-anchor="middle" x="550.5" y="-387.95" font-family="Arial" font-size="14.00">מבוא Java</text>
+</a>
+</g>
 </g>
 <!-- 20441&#45;&gt;20407 -->
 <g id="edge2" class="edge">
@@ -267,8 +330,11 @@
 <!-- 20465 -->
 <g id="node11" class="node">
 <title>20465</title>
+<g id="a_node11"><a xlink:href="https://www.openu.ac.il/courses/20465.htm" xlink:title="מעבדה בתכנות">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="600.12,-336.5 500.88,-336.5 500.88,-300.5 600.12,-300.5 600.12,-336.5"/>
 <text text-anchor="middle" x="550.5" y="-313.45" font-family="Arial" font-size="14.00">מעבדה בתכנות</text>
+</a>
+</g>
 </g>
 <!-- 20441&#45;&gt;20465 -->
 <g id="edge4" class="edge">
@@ -291,8 +357,11 @@
 <!-- 20946 -->
 <g id="node18" class="node">
 <title>20946</title>
+<g id="a_node18"><a xlink:href="https://www.openu.ac.il/courses/20946.htm" xlink:title="מ&#39; לבדיקות תוכנה">
 <polygon fill="#f0f0f0" stroke="black" points="633.12,-108 521.88,-108 521.88,-72 633.12,-72 633.12,-108"/>
 <text text-anchor="middle" x="577.5" y="-84.95" font-family="Arial" font-size="14.00">מ&#39; לבדיקות תוכנה</text>
+</a>
+</g>
 </g>
 <!-- 20465&#45;&gt;20946 -->
 <g id="edge23" class="edge">
@@ -309,8 +378,11 @@
 <!-- 20364 -->
 <g id="node32" class="node">
 <title>20364</title>
+<g id="a_node32"><a xlink:href="https://www.openu.ac.il/courses/20364.htm" xlink:title="קומפילציה">
 <polygon fill="#f0f0f0" stroke="black" points="721.5,-108 651.5,-108 651.5,-72 721.5,-72 721.5,-108"/>
 <text text-anchor="middle" x="686.5" y="-84.95" font-family="Arial" font-size="14.00">קומפילציה</text>
+</a>
+</g>
 </g>
 <!-- 20465&#45;&gt;20364 -->
 <g id="edge24" class="edge">
@@ -321,8 +393,11 @@
 <!-- 20604 -->
 <g id="node13" class="node">
 <title>20604</title>
+<g id="a_node13"><a xlink:href="https://www.openu.ac.il/courses/20604.htm" xlink:title="מודלים חישוביים">
 <polygon fill="#d6ddff" stroke="#0d32b2" points="937.62,-182.5 835.38,-182.5 835.38,-146.5 937.62,-146.5 937.62,-182.5"/>
 <text text-anchor="middle" x="886.5" y="-159.45" font-family="Arial" font-size="14.00">מודלים חישוביים</text>
+</a>
+</g>
 </g>
 <!-- 20417&#45;&gt;20604 -->
 <g id="edge17" class="edge">
@@ -333,8 +408,11 @@
 <!-- 20595 -->
 <g id="node17" class="node">
 <title>20595</title>
+<g id="a_node17"><a xlink:href="https://www.openu.ac.il/courses/20595.htm" xlink:title="כריית מידע">
 <polygon fill="#f0f0f0" stroke="black" points="719.12,-182.5 643.88,-182.5 643.88,-146.5 719.12,-146.5 719.12,-182.5"/>
 <text text-anchor="middle" x="681.5" y="-159.45" font-family="Arial" font-size="14.00">כריית מידע</text>
+</a>
+</g>
 </g>
 <!-- 20417&#45;&gt;20595 -->
 <g id="edge18" class="edge">
@@ -345,8 +423,11 @@
 <!-- 20582 -->
 <g id="node23" class="node">
 <title>20582</title>
+<g id="a_node23"><a xlink:href="https://www.openu.ac.il/courses/20582.htm" xlink:title="מ&#39; לרשתות ת&#39;&#39;מ">
 <polygon fill="#f0f0f0" stroke="black" points="541,-182.5 438,-182.5 438,-146.5 541,-146.5 541,-182.5"/>
 <text text-anchor="middle" x="489.5" y="-159.45" font-family="Arial" font-size="14.00">מ&#39; לרשתות ת&#39;&#39;מ</text>
+</a>
+</g>
 </g>
 <!-- 20417&#45;&gt;20582 -->
 <g id="edge21" class="edge">
@@ -369,8 +450,11 @@
 <!-- 20551 -->
 <g id="node20" class="node">
 <title>20551</title>
+<g id="a_node20"><a xlink:href="https://www.openu.ac.il/courses/20551.htm" xlink:title="מ&#39; לבינה מלאכותית">
 <polygon fill="#f0f0f0" stroke="black" points="984.25,-108 864.75,-108 864.75,-72 984.25,-72 984.25,-108"/>
 <text text-anchor="middle" x="924.5" y="-84.95" font-family="Arial" font-size="14.00">מ&#39; לבינה מלאכותית</text>
+</a>
+</g>
 </g>
 <!-- 20604&#45;&gt;20551 -->
 <g id="edge20" class="edge">
@@ -387,8 +471,11 @@
 <!-- 20580 -->
 <g id="node30" class="node">
 <title>20580</title>
+<g id="a_node30"><a xlink:href="https://www.openu.ac.il/courses/20580.htm" xlink:title="מ&#39; לקריפטוגרפיה">
 <polygon fill="#f0f0f0" stroke="black" points="846.88,-108 740.12,-108 740.12,-72 846.88,-72 846.88,-108"/>
 <text text-anchor="middle" x="793.5" y="-84.95" font-family="Arial" font-size="14.00">מ&#39; לקריפטוגרפיה</text>
+</a>
+</g>
 </g>
 <!-- 20604&#45;&gt;20580 -->
 <g id="edge39" class="edge">
@@ -411,8 +498,11 @@
 <!-- 20940 -->
 <g id="node16" class="node">
 <title>20940</title>
+<g id="a_node16"><a xlink:href="https://www.openu.ac.il/courses/20940.htm" xlink:title="מ&#39; לאבטחת ה&#39;&#39;ה">
 <polygon fill="#f0f0f0" stroke="black" points="504.12,-108 398.88,-108 398.88,-72 504.12,-72 504.12,-108"/>
 <text text-anchor="middle" x="451.5" y="-84.95" font-family="Arial" font-size="14.00">מ&#39; לאבטחת ה&#39;&#39;ה</text>
+</a>
+</g>
 </g>
 <!-- 20594&#45;&gt;20940 -->
 <g id="edge5" class="edge">
@@ -423,8 +513,11 @@
 <!-- 20937 -->
 <g id="node28" class="node">
 <title>20937</title>
+<g id="a_node28"><a xlink:href="https://www.openu.ac.il/courses/20937.htm" xlink:title="תכ&#39; מע&#39; דפנסיבי">
 <polygon fill="#f0f0f0" stroke="black" points="381,-108 278,-108 278,-72 381,-72 381,-108"/>
 <text text-anchor="middle" x="329.5" y="-84.95" font-family="Arial" font-size="14.00">תכ&#39; מע&#39; דפנסיבי</text>
+</a>
+</g>
 </g>
 <!-- 20594&#45;&gt;20937 -->
 <g id="edge34" class="edge">
@@ -435,8 +528,11 @@
 <!-- 20574 -->
 <g id="node33" class="node">
 <title>20574</title>
+<g id="a_node33"><a xlink:href="https://www.openu.ac.il/courses/20574.htm" xlink:title="מע&#39; נתונים">
 <polygon fill="#f0f0f0" stroke="black" points="216.62,-108 144.38,-108 144.38,-72 216.62,-72 216.62,-108"/>
 <text text-anchor="middle" x="180.5" y="-84.95" font-family="Arial" font-size="14.00">מע&#39; נתונים</text>
+</a>
+</g>
 </g>
 <!-- 20594&#45;&gt;20574 -->
 <g id="edge29" class="edge">
@@ -453,8 +549,11 @@
 <!-- 20436 -->
 <g id="node34" class="node">
 <title>20436</title>
+<g id="a_node34"><a xlink:href="https://www.openu.ac.il/courses/20436.htm" xlink:title="עק&#39; פיתוח מע&#39; מידע">
 <polygon fill="#f0f0f0" stroke="black" points="287,-182.5 166,-182.5 166,-146.5 287,-146.5 287,-182.5"/>
 <text text-anchor="middle" x="226.5" y="-159.45" font-family="Arial" font-size="14.00">עק&#39; פיתוח מע&#39; מידע</text>
+</a>
+</g>
 </g>
 <!-- 20277&#45;&gt;20436 -->
 <g id="edge28" class="edge">
@@ -489,8 +588,11 @@
 <!-- 20900 -->
 <g id="node27" class="node">
 <title>20900</title>
+<g id="a_node27"><a xlink:href="https://www.openu.ac.il/courses/20900.htm" xlink:title="נומרית 2">
 <polygon fill="#f0f0f0" stroke="black" points="1019.5,-182.5 955.5,-182.5 955.5,-146.5 1019.5,-146.5 1019.5,-182.5"/>
 <text text-anchor="middle" x="987.5" y="-159.45" font-family="Arial" font-size="14.00">נומרית 2</text>
+</a>
+</g>
 </g>
 <!-- 20462&#45;&gt;20900 -->
 <g id="edge45" class="edge">
