@@ -10,11 +10,11 @@ digraph CoursesDiagram {
     "20475" [label="אינפי 2", URL="https://www.openu.ac.il/courses/20475.htm"];
     "20109" [label="לינארית 1", URL="https://www.openu.ac.il/courses/20109.htm"];
     "20229" [label="לינארית 2", URL="https://www.openu.ac.il/courses/20229.htm"];
-    "20425" [label="הסתברות\nסטטיסטיקה", URL="https://www.openu.ac.il/courses/20425.htm"];
+    "20425" [label="מ' הסתברות-סטטיסטיקה ", URL="https://www.openu.ac.il/courses/20425.htm"];
 
     // CS courses
     node [fillcolor="#d6ddff", color="#0D32B2"];
-    "20407" [label="מנמא", URL="https://www.openu.ac.il/courses/20407.htm"];
+    "20407" [label="מבני נתונים ומ' לאלגוריתמים", URL="https://www.openu.ac.il/courses/20407.htm"];
     "20905" [label="שפות תכנות", URL="https://www.openu.ac.il/courses/20905.htm"];
     "20471" [label="ארגון המחשב", URL="https://www.openu.ac.il/courses/20471.htm"];
     "20441" [label="מבוא Java", URL="https://www.openu.ac.il/courses/20441.htm"];
@@ -28,9 +28,9 @@ digraph CoursesDiagram {
     node [fillcolor="#f0f0f0", color="black"];
     "20940" [label="מ' לאבטחת ה''ה", URL="https://www.openu.ac.il/courses/20940.htm"];
     "20595" [label="כריית מידע", URL="https://www.openu.ac.il/courses/20595.htm"];
-    "20946" [label="מ' לבדיקות תוכנה", URL="https://www.openu.ac.il/courses/20946.htm"];
+    "20946" [label="מ' לבדיקות\nתוכנה", URL="https://www.openu.ac.il/courses/20946.htm"];
     "20296" [label="תורת הקודים", URL="https://www.openu.ac.il/courses/20296.htm"];
-    "20551" [label="מ' לבינה מלאכותית", URL="https://www.openu.ac.il/courses/20551.htm"];
+    "20551" [label="מ' לבינה\nמלאכותית", URL="https://www.openu.ac.il/courses/20551.htm"];
     "20942" [label="מ' ללמידה חישובית", URL="https://www.openu.ac.il/courses/20942.htm"];
     "20277" [label="מע' בסיסי נתונים", URL="https://www.openu.ac.il/courses/20277.htm"];
     "20582" [label="מ' לרשתות ת''מ", URL="https://www.openu.ac.il/courses/20582.htm"];
@@ -41,23 +41,23 @@ digraph CoursesDiagram {
     "20937" [label="תכ' מע' דפנסיבי", URL="https://www.openu.ac.il/courses/20937.htm"];
     "20562" [label="גרפיקה ממוחשבת", URL="https://www.openu.ac.il/courses/20562.htm"];
     "20580" [label="מ' לקריפטוגרפיה", URL="https://www.openu.ac.il/courses/20580.htm"];
+    "20436" [label="עק' פיתוח מע' מידע", URL="https://www.openu.ac.il/courses/20436.htm"];
     "20906" [label="תכ' מונחה עצמים", URL="https://www.openu.ac.il/courses/20906.htm"];
     "20364" [label="קומפילציה", URL="https://www.openu.ac.il/courses/20364.htm"];
     "20574" [label="מע' נתונים", URL="https://www.openu.ac.il/courses/20574.htm"];
-    "20436" [label="עק' פיתוח מע' מידע", URL="https://www.openu.ac.il/courses/20436.htm"];
 
     // Edges
-    "20465" -> "20471";
     "20441" -> "20407";
-    "20476" -> "20466";
+    "20465" -> "20471";
     "20441" -> "20465";
     "20594" -> "20940";
     "20474" -> "20475" -> "20425";
     "20466" -> "20604";
-    "20109" -> "20296";
+    "20476" -> "20466";
     "20407" -> "20277";
     "20604" -> "20942";
     "20471" -> "20594";
+    "20109" -> "20296";
     "20109" -> "20229";
     "20425" -> "20417";
     "20109" -> "20417";
