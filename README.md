@@ -1,12 +1,5 @@
+This is a diagram of CS course dependencies based on https://academic.openu.ac.il/cs/computer/program/AF.aspx.
 
-# Screenshot
+![img](diagram.svg)
 
-![img](img.png)
-
-
-# D2
-
-```
-d2 diagram.d2 --font-bold=Arimo-Bold.ttf
-d2 diagram.d2 --watch --font-bold=Arimo-Bold.ttf
-```
+Created using Graphviz (https://gitlab.com/graphviz/graphviz).

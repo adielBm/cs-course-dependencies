@@ -1,0 +1,268 @@
+# direction: left
+vars: {
+  d2-config: {
+    theme-id: 3
+    # dark-theme-id: 200
+    pad: 0
+    # center: false
+    # sketch: true
+    layout-engine: elk  
+  }
+}
+
+style: {
+  fill-pattern: dots
+}
+
+classes: {
+  course: {
+    # width: 200
+    # height: 120
+    style: {
+      # shadow: true
+      font-size: 20
+      border-radius: 5
+    }
+  }
+  math: {
+    style: {
+      fill: "#FFF2CC"
+      stroke: "#916f0c"
+    }
+  }
+  cs: {
+    style: {
+      fill: "#d6ddff"
+      stroke: "#0D32B2"
+    }
+  }
+  elective: {
+    style: {
+      fill: "#f0f0f0"
+      stroke: "black"
+    }
+  }
+  rec: {
+    style: {
+      stroke: "gray"
+      stroke-width: 3
+      stroke-dash: 2
+    }
+  }
+}
+20476: {
+  label: "בדידה"
+  class: [course; math]
+}
+
+20474: {
+  label: "אינפי 1"
+  class: [course; math]
+}
+
+20475: {
+  label: "אינפי 2"
+  class: [course; math]
+}
+20407: {
+  label: "מנמא"
+  class: [course; cs]
+}
+20940: {
+  label: "מ' לאבטחת ה''ה"
+  class: [course; elective]
+}
+
+20595: {
+  label: "כריית מידע"
+  class: [course; elective]
+}
+
+20946: {
+  label: "מ' לבדיקות תוכנה"
+  class: [course; elective]
+}
+
+20905: {
+  label: "שפות תכנות"
+  class: [course; cs]
+}
+
+20471: {
+  label: "ארגון המחשב"
+  class: [course; cs]
+}
+
+20296: {
+  label: "תורת הקודים"
+  class: [course; elective]
+}
+
+20551: {
+  label: "מ' לבינה מלאכותית"
+  class: [course; elective]
+}
+
+20109: {
+  label: "לינארית 1"
+  class: [course; math]
+}
+
+20229: {
+  label: "לינארית 2"
+  class: [course; math]
+}
+
+20425: {
+  label: "הסתברות\nסטטיסטיקה"
+  class: [course; math]
+}
+
+20441: {
+  label: "מבוא Java"
+  class: [course; cs]
+}
+
+20465: {
+  label: "מעבדה בתכנות "
+  class: [course; cs]
+}
+
+20417: {
+  label: "אלגוריתמים"
+  class: [course; cs]
+}
+20942: {
+  label: "מ' ללמידה חישובית"
+  class: [course; elective]
+}
+20604: {
+  label: "מודלים חישוביים "
+  class: [course; cs]
+}
+
+20466: {
+  label: "לוגיקה  למדמח "
+  class: [course; cs]
+}
+
+20594: {
+  label: "מע' הפעלה"
+  class: [course; cs]
+}
+
+20277: {
+  label: "מע' בסיסי נתונים"
+  class: [course; elective]
+}
+
+20582: {
+  label: "מ' לרשתות ת''מ"
+  class: [course; elective]
+}
+
+20944: {
+  label: "רובוטיקה\nאלגוריתמית"
+  class: [course; elective]
+}
+20554: {
+  label: "תכ' מתקדם \n Java"
+  class: [course; elective]
+}
+
+20462: {
+  label: "נומרית 1"
+  class: [course; elective]
+}
+
+20900: {
+  label:  "נומרית 2"
+  class: [course; elective]
+}
+20937: {
+  label: "תכ' מע' דפנסיבי"
+  class: [course; elective]
+}
+
+20562: {
+  label: "גרפיקה ממוחשבת"
+  class: [course; elective]
+}
+
+20580: {
+  label: "מ' לקריפטוגרפיה"
+  class: [course; elective]
+}
+
+20906: {
+  label: "תכ' מונחה עצמים"
+  class: [course; elective]
+}
+
+20364: {
+  label: "קומפילציה"
+  class: [course; elective]
+}
+
+20574: {
+  label: "מע' נתונים"
+  class: [course; elective]
+}
+20436: {
+  label: "עק' פיתוח  מע' מידע"
+  class: [course; elective]
+}
+
+20465 -> 20471
+# 20946 -> 20905
+20441 -> 20407
+20476 -> 20466
+20441 -> 20465
+20594 -> 20940
+20474 -> 20475 -> 20425
+20466 -> 20604
+20109 -> 20296
+20407 -> 20277
+20604 -> 20942
+20471 -> 20594
+20109 -> 20229
+20425 -> 20417
+20109 -> 20417
+20407 -> 20417 -> 20604
+20417 -> 20595
+20582 -> 20940
+20604 -> 20551
+20417 -> 20582
+20476 -> 20407
+20465 -> 20946
+20465 -> 20364
+20407 -> 20471
+20604 -> 20946
+
+20417 -> 20944
+20277 -> 20436
+20594 -> 20574
+20441 -> 20462
+20475 -> 20462
+20109 -> 20462
+# 20466 -> 20551
+# 20425 -> 20551
+20407 -> 20554
+20594 -> 20937
+20582 -> 20937
+20109 -> 20562
+20465 -> 20562
+20407 -> 20562
+20604 -> 20580
+20407 -> 20594
+20554 -> 20937
+# 20604 -> 20905
+20407 -> 20906
+20604 -> 20364
+20277 -> 20574
+20425 -> 20942
+20462 -> 20900
+20462 -> 20944
+20906 -> 20905
+20364 -> 20905
+20229 -> 20944
