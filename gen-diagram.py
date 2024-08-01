@@ -15,10 +15,10 @@ def generate_graphviz(courses, dependencies):
     print("digraph CS_Course_Dependencies {")
     print("    rankdir=TD;")
 
-    print("   label=\"CS Course Dependencies\";")
-    print(f"   fontname=\"{font}\";")
-    print("   tooltip=\" \" ;")
-    print("   URL=\"https://github.com/adielBm/cs-course-dependencies\" ;")
+    # print("   label=\"CS Course Dependencies\";")
+    # print(f"   fontname=\"{font}\";")
+    # print("   tooltip=\" \" ;")
+    # print("   URL=\"https://github.com/adielBm/cs-course-dependencies\" ;")
     # print(f"node [ URL=\"https://academic.openu.ac.il/cs/computer/program/AF.aspx\", shape=plaintext, fontname=\"{font}\", fontsize=22];    \"CS Course Dependencies\" [label=\"מדעי המחשב\", fontname=\"{font}\", fontsize=50];")
 
     print(f"    node [shape=box, style=\"filled\",fontname=\"{font}\" , fontsize={course_fontsize}];")

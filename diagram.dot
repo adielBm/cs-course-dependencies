@@ -1,9 +1,5 @@
 digraph CS_Course_Dependencies {
     rankdir=TD;
-   label="CS Course Dependencies";
-   fontname="Arial";
-   tooltip=" " ;
-   URL="https://github.com/adielbm/CS-Course-Dependencies" ;
     node [shape=box, style="filled",fontname="Arial" , fontsize=16];
     edge [color="gray", penwidth=1];
 
