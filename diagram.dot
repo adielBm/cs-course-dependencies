@@ -22,7 +22,7 @@ digraph CS_Course_Dependencies {
     "20417" [tooltip="20417" label=<אלגוריתמים| <font POINT-SIZE="17"><b>5</b></font>>, URL="https://www.openu.ac.il/courses/20417.htm"];
     "20604" [tooltip="20604" label=<מודלים חישוביים| <font POINT-SIZE="17"><b>5</b></font>>, URL="https://www.openu.ac.il/courses/20604.htm"];
     "20466" [tooltip="20466" label=<לוגיקה למדמח| <font POINT-SIZE="17"><b>4</b></font>>, URL="https://www.openu.ac.il/courses/20466.htm"];
-    "20594" [tooltip="20594" label=<מע' הפעלה| <font POINT-SIZE="17"><b>5</b></font>>, URL="https://www.openu.ac.il/courses/20594.htm"];
+    "20594" [tooltip="20594" label=<מע' הפעלה| <font POINT-SIZE="17"><b>4</b></font>>, URL="https://www.openu.ac.il/courses/20594.htm"];
 
     // Elective courses
     node [fillcolor="#f0f0f0", color="black", shape=record];
