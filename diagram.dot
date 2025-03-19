@@ -1,7 +1,7 @@
 digraph CS_Course_Dependencies {
     rankdir=TD;
     node [shape=box, style="filled",fontname="Arial" , fontsize=16];
-    edge [color="gray", penwidth=1];
+    edge [color="black", penwidth=1];
 
     // Math courses
     node [fillcolor="#FFF2CC", color="#916f0c", shape=record];

@@ -9,7 +9,7 @@ class_styles = {
     "cs": 'fillcolor="#d6ddff", color="#0D32B2"',
     "elective": 'fillcolor="#f0f0f0", color="black"'
 }
-edgecolor = 'gray'
+edgecolor = 'black'
 
 def generate_graphviz(courses, dependencies):
     print("digraph CS_Course_Dependencies {")
